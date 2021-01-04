@@ -1,0 +1,286 @@
+PODS:
+  - AAInfographics (5.0.4)
+  - ActiveLabel (1.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - Alamofire (5.2.2)
+  - AttributedString (1.6.8)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - CryptoSwift (1.3.8)
+  - DZNEmptyDataSet (1.8.1)
+  - EmptyPage (4.0.2):
+    - EmptyPage/core (= 4.0.2)
+    - EmptyPage/managers (= 4.0.2)
+    - EmptyPage/templates (= 4.0.2)
+  - EmptyPage/core (4.0.2)
+  - EmptyPage/managers (4.0.2):
+    - EmptyPage/core
+  - EmptyPage/templates (4.0.2):
+    - EmptyPage/core
+  - FSCalendar (2.8.2)
+  - HandyJSON (5.0.2)
+  - IGListDiffKit (4.0.0)
+  - IGListKit (4.0.0):
+    - IGListDiffKit (= 4.0.0)
+  - IQKeyboardManager (6.5.6)
+  - JXSegmentedView (1.2.7)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MGSwipeTableCell (1.6.11)
+  - MJRefresh (3.5.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Nimble (8.1.1)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Quick (3.0.0)
+  - Realm (10.5.0):
+    - Realm/Headers (= 10.5.0)
+  - Realm/Headers (10.5.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.10.2):
+    - SDWebImage/Core (= 5.10.2)
+  - SDWebImage/Core (5.10.2)
+  - SJBaseVideoPlayer (3.4.5):
+    - Masonry
+    - SJBaseVideoPlayer/AVPlayer (= 3.4.5)
+    - SJBaseVideoPlayer/Common (= 3.4.5)
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/AVPlayer (3.4.5):
+    - Masonry
+    - SJBaseVideoPlayer/Common
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/Common (3.4.5):
+    - Masonry
+    - SJBaseVideoPlayer/ResourceLoader
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJBaseVideoPlayer/ResourceLoader (3.4.5):
+    - Masonry
+    - SJUIKit/AttributesFactory (>= 0.0.0.38)
+    - SJUIKit/ObserverHelper
+    - SJUIKit/Queues
+    - SJUIKit/SQLite3
+  - SJUIKit/AttributesFactory (0.0.0.51):
+    - SJUIKit/AttributesFactory/Deprecated (= 0.0.0.51)
+    - SJUIKit/AttributesFactory/UIKitText (= 0.0.0.51)
+  - SJUIKit/AttributesFactory/Deprecated (0.0.0.51)
+  - SJUIKit/AttributesFactory/UIKitText (0.0.0.51)
+  - SJUIKit/ObserverHelper (0.0.0.51)
+  - SJUIKit/Queues (0.0.0.51)
+  - SJUIKit/SQLite3 (0.0.0.51):
+    - SJUIKit/SQLite3/Core (= 0.0.0.51)
+    - SJUIKit/SQLite3/Protocol (= 0.0.0.51)
+    - YYModel
+  - SJUIKit/SQLite3/Core (0.0.0.51):
+    - SJUIKit/SQLite3/Protocol
+    - YYModel
+  - SJUIKit/SQLite3/Protocol (0.0.0.51):
+    - YYModel
+  - SJVideoPlayer (3.2.9):
+    - SJBaseVideoPlayer (>= 3.4.5)
+    - SJVideoPlayer/Common (= 3.2.9)
+    - SJVideoPlayer/ControlLayers (= 3.2.9)
+    - SJVideoPlayer/ResourceLoader (= 3.2.9)
+  - SJVideoPlayer/Common (3.2.9):
+    - Masonry
+    - SJBaseVideoPlayer (>= 3.4.5)
+    - SJUIKit/AttributesFactory
+    - SJVideoPlayer/ResourceLoader
+  - SJVideoPlayer/ControlLayers (3.2.9):
+    - SJBaseVideoPlayer (>= 3.4.5)
+    - SJVideoPlayer/Common
+  - SJVideoPlayer/ResourceLoader (3.2.9):
+    - SJBaseVideoPlayer (>= 3.4.5)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.2.5)
+  - SwiftDate (6.3.1)
+  - SwiftyFitsize (1.1.0)
+  - SwiftyJSON (5.0.0)
+  - SwiftyUserDefaults (5.0.0)
+  - TZImagePickerController (3.5.8)
+  - YBImageBrowser (3.0.9):
+    - YBImageBrowser/Core (= 3.0.9)
+  - YBImageBrowser/Core (3.0.9):
+    - SDWebImage (>= 5.0.0)
+    - YYImage
+  - YBImageBrowser/Video (3.0.9):
+    - YBImageBrowser/Core
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYModel (1.0.4)
+  - ZCycleView (1.0.0)
+  - ZZCircleProgress (0.3.1)
+
+DEPENDENCIES:
+  - AAInfographics
+  - ActiveLabel
+  - AFNetworking (~> 4.0)
+  - AttributedString
+  - Charts
+  - CryptoSwift
+  - DZNEmptyDataSet
+  - EmptyPage
+  - FSCalendar
+  - HandyJSON
+  - IGListKit
+  - IQKeyboardManager
+  - JXSegmentedView
+  - MBProgressHUD
+  - MGSwipeTableCell
+  - MJRefresh
+  - Moya
+  - Nimble
+  - PromiseKit
+  - Quick
+  - Realm
+  - RxCocoa
+  - RxSwift
+  - SDWebImage
+  - SJBaseVideoPlayer
+  - SJVideoPlayer
+  - SnapKit
+  - SVProgressHUD
+  - SwiftDate
+  - SwiftyFitsize
+  - SwiftyJSON
+  - SwiftyUserDefaults
+  - TZImagePickerController
+  - YBImageBrowser
+  - YBImageBrowser/Video
+  - ZCycleView
+  - ZZCircleProgress
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AAInfographics
+    - ActiveLabel
+    - AFNetworking
+    - AttributedString
+    - EmptyPage
+    - HandyJSON
+    - IQKeyboardManager
+    - JXSegmentedView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - SJBaseVideoPlayer
+    - SJUIKit
+    - SJVideoPlayer
+    - SwiftyFitsize
+    - TZImagePickerController
+    - YBImageBrowser
+    - YYImage
+    - YYModel
+    - ZCycleView
+    - ZZCircleProgress
+  trunk:
+    - Alamofire
+    - Charts
+    - CryptoSwift
+    - DZNEmptyDataSet
+    - FSCalendar
+    - IGListDiffKit
+    - IGListKit
+    - MGSwipeTableCell
+    - Moya
+    - Nimble
+    - PromiseKit
+    - Quick
+    - Realm
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
+    - SwiftDate
+    - SwiftyJSON
+    - SwiftyUserDefaults
+
+SPEC CHECKSUMS:
+  AAInfographics: 70e147c66171d9cb9a9398cda74b0f8dbdc16d8b
+  ActiveLabel: 5e3f4de79a1952d4604b845a0610d4776e4b82b3
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AttributedString: 20191014381c897ea03bd6733a21b8f6e98145d1
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  CryptoSwift: 01b0f0cba1d5c212e5a335ff6c054fb75a204f00
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  EmptyPage: c9cfc17563ba994e963fabf44d968ac51e2cfa8c
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  IGListDiffKit: 665d6cf43ce726e676013db9c7d6c4294259b6b2
+  IGListKit: fd5a5d21935298f5849fa49d426843cff97b77c7
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  JXSegmentedView: eb1cad21f57c2543c00c3e08b8fd3c7ca54f5acd
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MGSwipeTableCell: b804e4e450dee439c42250be90bd50458bf67fce
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  Nimble: 5f8a2fb6fa343a7242dfdd9d42f7267419d464b2
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Quick: 6d9559f40647bc4d510103842ef2fdd882d753e2
+  Realm: e1c22c3d83b229afb70ebc10e1771c91e9542d12
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: b969dcfc02c40a5da71eac0b03b8f1a0c794a86f
+  SJBaseVideoPlayer: 0ecccbae3bf6cad55187113247ea88f711bef276
+  SJUIKit: bdf86af3648e70483c57e2bfe2fcc7531337fa54
+  SJVideoPlayer: 3cccc263bc03edccedc1b2be887b903e3dfca106
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftDate: 72d28954e8e1c6c1c0f917ccc8005e4f83c7d4b2
+  SwiftyFitsize: 669b8916e5e4aa41da9be4fa348d8a0e77177387
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyUserDefaults: 33fcb42bd1feb53a37d873feb62c82967db5f7f6
+  TZImagePickerController: 7fd9702897ef8c0b7c951e5463f4bcf398296f9e
+  YBImageBrowser: 7ecc8bf33ffa5f3b94c397c29b4f3638dd37f527
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  ZCycleView: 841b553d238ec97d4442bafacc482e3f36405e86
+  ZZCircleProgress: 207e454a96f05321be6df16357671d9a870656b6
+
+PODFILE CHECKSUM: 1fee0ff1a4619ea418e9462037aea88e11ce19bc
+
+COCOAPODS: 1.10.0

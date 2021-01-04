@@ -1,0 +1,6 @@
+framework module WoWanSDK {
+  umbrella header "WoWanSDK.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module AiWanAdSDK {
+  umbrella header "AiWanAdSDK.h"
+
+  export *
+  module * { export * }
+}
